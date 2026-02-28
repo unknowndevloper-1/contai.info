@@ -2,43 +2,184 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About Us - Contai Information Point</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+
     <header>
         <div class="container navbar">
-            <div class="logo"><img src="assets/logo.jpg" alt="Logo"></div>
+            <div class="logo">
+                <img src="assets/logo.jpg" alt="Contai Information Point">
+            </div>
             <ul class="nav-links">
                 <li><a href="index.html">Home</a></li>
-                <li class="dropdown"><a href="#">History</a>
+                <li class="dropdown">
+                    <a href="#">History &#9662;</a>
                     <div class="dropdown-content">
                         <a href="history_freedom.html">Freedom Movements</a>
-                        <a href="history_rise_fall.html">Rise & Fall</a>
-                        <a href="history_cyclone.html">Cyclones</a>
-                        <a href="history_personalities.html">Personalities</a>
+                        <a href="history_rise_fall.html">Rise & Fall of Places</a>
+                        <a href="history_cyclone.html">Cyclones & Floods</a>
+                        <a href="history_personalities.html">Great Personalities</a>
                     </div>
                 </li>
-                <li class="dropdown"><a href="#">Places</a>
+                <li class="dropdown">
+                    <a href="#">Places &#9662;</a>
                     <div class="dropdown-content">
                         <a href="place_mandarmani.html">Mandarmani</a>
                         <a href="place_sankarpur.html">Sankarpur</a>
                     </div>
                 </li>
-                <li><a href="about.html">About Us</a></li>
+                <li><a href="about.html" style="color: var(--primary-color);">About Us</a></li>
             </ul>
         </div>
     </header>
 
-    <div class="container" style="min-height: 50vh; padding: 50px 0;">
-        <div class="card">
-            <h1>About Us</h1>
-            <p>This section is under construction. Please check back later for updates on the Contai Information Point team and mission.</p>
+    <section class="hero" style="background: url('assets/beach.jpg') no-repeat center center; background-size: cover; height: 300px; display: flex; align-items: center; justify-content: center; color: white; text-align: center; position: relative;">
+        <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.6);"></div>
+        
+        <div class="hero-content" style="position: relative; z-index: 1;">
+            <h1 style="font-size: 3rem; text-shadow: 2px 2px 4px rgba(0,0,0,0.8);">About Us</h1>
+            <p style="font-size: 1.2rem; text-shadow: 1px 1px 3px rgba(0,0,0,0.8);">The Story Behind Contai Information Point</p>
         </div>
+    </section>
+
+    <div class="container main-grid" style="grid-template-columns: 1fr; max-width: 1400px; padding: 0 40px; margin-top: 40px;">
+        
+        <main>
+            <div class="card" style="padding: 40px; margin-bottom: 30px;">
+                <h2 style="font-size: 2rem; margin-bottom: 20px; color: var(--primary-color); text-align: center;">Our Journey</h2>
+                
+                <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 20px; text-align: justify;">
+                    The importance of an online presence for organizations, places, and businesses is universally recognized. However, back in 2003-2004, there was virtually no digital footprint for Contai. Recognizing this gap, an initiative was launched to showcase the lovely town of Contai and its surrounding tourist spots—including Sankarpur, Mandarmani, Junput, and Dariapur—to the world. This vision led to the creation of a dedicated website for Contai and its surroundings. It is essential to acknowledge the visionaries who formed the foundation of Contai Information Point.
+                </p>
+
+                <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 30px; margin-top: 40px;">
+                    
+                    <div style="background: var(--bg-light); padding: 25px; border-radius: 5px; border-top: 4px solid var(--primary-color); box-shadow: 0 2px 5px rgba(0,0,0,0.05);">
+                        <h3 style="margin-bottom: 20px; color: var(--primary-color); display: flex; align-items: center; gap: 10px;">
+                            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+                                <circle cx="9" cy="7" r="4"></circle>
+                                <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
+                                <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+                            </svg>
+                            The Founders
+                        </h3>
+                        <ul style="list-style-type: none; padding: 0; line-height: 1.6;">
+                            <li style="margin-bottom: 15px;">
+                                <strong>Bidisa Pradhan:</strong> Materialized the idea from the ground up, working tirelessly to collect and update information during the initial stage (2003-2004), and actively participating in most page designs.
+                            </li>
+                            <li style="margin-bottom: 15px;">
+                                <strong>Mr. Amarnath Sahoo:</strong> The genius who discovered the name 'Contai Information Point' and gathered the majority of the early historical information.
+                            </li>
+                            <li style="margin-bottom: 15px;">
+                                <strong>Mr. Barun Kumar Jana:</strong> Deeply appreciated the idea and generously permitted the use of his lab and internet connection to build the website.
+                            </li>
+                            <li>
+                                <strong>Mr. Sourav Maiti:</strong> Core founder and developer. <br><em>Contact: (+91) 9434175558 / 9735420420</em>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div style="background: var(--bg-light); padding: 25px; border-radius: 5px; border-top: 4px solid var(--primary-color); box-shadow: 0 2px 5px rgba(0,0,0,0.05);">
+                        <h3 style="margin-bottom: 20px; color: var(--primary-color); display: flex; align-items: center; gap: 10px;">
+                            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+                            </svg>
+                            Current Administrators
+                        </h3>
+                        <p style="line-height: 1.6; margin-bottom: 15px; font-size: 0.95rem;">
+                            In January 2008, the <strong>Contai Club Sub-divisional Library</strong> officially took up the project and formed the 'Contai Information Point Committee'. The project is currently undertaken and managed by the library.
+                        </p>
+                        <h4 style="margin-bottom: 10px;">Committee Members:</h4>
+                        <ul style="list-style-type: none; padding: 0; line-height: 1.8;">
+                            <li><strong>Mr. Sourav Maiti</strong> - (+91) 9735420420 / 9434175558</li>
+                            <li><strong>Mr. Goutam Kr. Pati</strong> - (+91) 9474088202</li>
+                            <li><strong>Mr. Sukumar Midya</strong> - (+91) 9474306033</li>
+                            <li><strong>Mr. Subrata Guha</strong> - (+91) 9434145870</li>
+                        </ul>
+                    </div>
+
+                    <div style="background: var(--bg-light); padding: 25px; border-radius: 5px; border-top: 4px solid var(--primary-color); box-shadow: 0 2px 5px rgba(0,0,0,0.05);">
+                        <h3 style="margin-bottom: 20px; color: var(--primary-color); display: flex; align-items: center; gap: 10px;">
+                            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                                <circle cx="12" cy="10" r="3"></circle>
+                            </svg>
+                            Address
+                        </h3>
+                        <p style="line-height: 1.8; font-size: 1.05rem;">
+                            <strong>Contai Information Point</strong><br>
+                            Contai Club Sub-Divisional Library<br>
+                            <em>(Govt. Sponsored Public Library)</em><br><br>
+                            Contai,<br>
+                            East Midnapore - 721401.<br>
+                            West Bengal, India
+                        </p>
+                    </div>
+
+                </div>
+
+                <div style="margin-top: 40px; padding: 25px; background-color: #e8f5e9; border: 1px solid #c8e6c9; border-radius: 5px;">
+                    <h3 style="color: #2e7d32; margin-bottom: 15px;">NOTICE</h3>
+                    <p style="line-height: 1.6; text-align: justify; margin-bottom: 10px;">
+                        An open invitation is extended to local clubs, NGOs, individuals, government authorities, and other organizations in Contai to collaborate in promoting the town's existence globally. 
+                    </p>
+                    <p style="line-height: 1.6; text-align: justify; margin-bottom: 10px;">
+                        It is highly appreciated if organizations, schools, colleges, and institutes share information regarding their upcoming events, notices, and latest publications. These updates will be published on this platform, allowing visitors worldwide to stay informed about local events and ensuring that the Contai Information Point (CIP) remains a comprehensive and continuously updated resource. 
+                    </p>
+                    <p style="line-height: 1.6; text-align: justify;">
+                        For more information or to submit details, please contact the administration.
+                    </p>
+                    <p style="margin-top: 15px; font-weight: bold; color: #2e7d32;">Regards,<br>The CIP Team</p>
+                </div>
+            </div>
+
+            <div class="card" style="padding: 40px; background-color: #fffaf0; border: 1px solid #e0d8c8; box-shadow: inset 0 0 20px rgba(0,0,0,0.02); margin-bottom: 50px;">
+                
+                <div style="display: flex; align-items: center; justify-content: center; gap: 20px; margin-bottom: 30px; flex-wrap: wrap;">
+                    <img src="assets/logo.jpg" alt="Library Logo" style="height: 50px; opacity: 0.9;">
+                    <h2 style="color: #8b4513; font-size: 1.8rem; border-bottom: 2px solid #8b4513; padding-bottom: 5px; margin: 0;">কাঁথি ক্লাব মহকুমা গ্রন্থাগারের সংক্ষিপ্ত ইতিহাস</h2>
+                </div>
+
+                <div style="font-family: 'Kalpurush', 'SolaimanLipi', Arial, sans-serif; font-size: 1.15rem; line-height: 1.9; color: #333; text-align: justify;">
+                    <p style="margin-bottom: 15px;">ইংরেজী ১৯০৫ সালে তৎকালীন মহকুমা শাসক প্রফুল্ল কুমার দাশগুপ্ত ও স্বনামধন্য উকীল স্বর্গত বিষ্ণুপদ চট্টোপাধ্যায়ের শুভ প্রচেষ্টায় ইং ১৪.০৫.০৫ তারিখে কাঁথি ক্লাব ও তৎসহ একটি গ্রন্থাগারের প্রতিষ্ঠা হয়।</p>
+                    
+                    <p style="margin-bottom: 15px;">১৯১৯ সালে কাঁথির সদাশয় জমিদার স্বর্গত গঙ্গাধর নন্দ মহাশায়র দানে বর্তমান স্থানে ক্লাবগৃহের উদ্বোধন হয়। পরবর্তী কালে সুযোগ্য নেতৃস্থানীয় ব্যক্তিগণের পরিচালনায় কাঁথি ক্লাব ও তৎসহ গ্রন্থাগারের শ্রীবৃদ্ধি হতে থাকে। ১৯৫৬ সালে মাননীয় পশ্চিমবঙ্গ সরকার এই গ্রন্থাগারকে কেন্দ্রীয় গ্রন্থাগারে উন্নীত করিবার প্রস্তাব দিলে তৎকালীন পরিচালক বর্গ তা গ্রহণ না করায় আরও পরে কাঁথির একমাত্র এই গ্রন্থাগারের উন্নতীর জন্য চেষ্টা চলতে থাকে।</p>
+                    
+                    <p style="margin-bottom: 15px;">১৯৭২-৭৫ সাল পর্যন্ত সরকারের নিকট বহু আবেদন নিবেদনের ফলে ইং ০১.১০.১৯৭৫ তারিখে পশ্চিমবঙ্গ সরকার এই গ্রন্থাগারকে মহকুমা গ্রন্থাগারে পরিণত করলে কাঁথি ক্লাব মহকুমা গ্রন্থাগারের সরকারী অনুদান ৪৫,০০০/- টাকা সহ প্রায় ৬২,০০০/- টাকা ব্যয়ে একতলাটা তৈরী হয়। এ পর্যন্ত প্রাপ্ত গৃহের জন্য সরকারী অনুদান মোট ৬৫,৫০০/- টাকা ও আনুষঙ্গিক ব্যয়ের জন্য পশ্চিমবঙ্গ সরকার নিয়মিত অনুদান দিতে থাকেন।</p>
+                    
+                    <p style="margin-bottom: 15px;">বর্তমানে কাঁথি ক্লাব মহকুমা গ্রন্থাগার কাঁথির একটি ঐতিহাসিক সামাজিক প্রতিষ্ঠান ও মূল্যবান সম্পদ। এই গ্রন্থাগার তার পরিষেবার মাধ্যমে জেলা সহ রাজ্যের মধ্যেও একটি জনপ্রিয় বৈশিষ্টপূর্ণ মহকুমা গ্রন্থাগারে পরিণত হয়েছে এ কথা নিঃসন্দেহে বলা যেতে পারে।</p>
+                    
+                    <p style="margin-bottom: 15px;">এখন এর পুস্তক সংখ্যা ১০,৭১৫। এই সমস্ত পুস্তক আজ পর্যন্ত সরকারী অনুদান, রাজা রামমোহন রায় লাইব্রেরী ফাউন্ডেশন, ডোনেশান সহ গ্রন্থাগরের নিজস্ব তহবিল থেকে সংগ্রহ করা হয়েছে। গল্প ও উপন্যাস ছাড়া গ্রন্থাগারে সংক্ষিপ্ত বিভিন্ন পুস্তক প্রদর্শনীর মাধ্যমে বিবিধ বিষয়ের ওপর পাঠক/ পাঠিকাদের মধ্যে যথেষ্ট আগ্রহ সৃষ্টি করা গেছে, নিঃসন্দেহে এটি গ্রন্থাগারের পক্ষে একটি শুভ লক্ষণ।</p>
+                    
+                    <p style="margin-bottom: 15px;">গ্রন্থাগারের বর্তমান পাঠক সংখ্যা ১৭৫৮, প্রতিদিন গড়ে ১২৪.৭ জন পাঠক / পাঠিকা গ্রন্থাগার ব্যবহার করেন। বিদ্যালয়, মহাবিদ্যালয়, কেরিয়ার গাইডেন্সের ছাত্রছাত্রী, শিশু এবং সাধারণ পাঠক / পাঠিকার জন্য পাঠ্যপুস্তক ও রেফারেন্স বই পাঠকক্ষে সংরক্ষিত আছে। গ্রন্থাগারের সদস্য / সদস্যা ছাড়াও অনুসন্ধিৎসু পাঠক / পাঠিকা পাঠকক্ষ ব্যবহার করতে পারেন। শিশু বিভাগের জন্য প্রয়োজনীয় বইও পাঠকক্ষে রাখা আছে। পাঠকক্ষে সর্বাধিক প্রচলিত ৫ টি দৈনিক বাংলা ও একটি ইংরেজী এবং ৩ টি পাক্ষিক বাংলা সংবাদপত্র রাখা হয়।</p>
+                    
+                    <p style="margin-bottom: 15px;">গত ২০০০ সালের ৩০.১২.২০০০ তারিখ থেকে পশ্চিমবঙ্গ সিভিল সার্ভিস পরীক্ষার্থীগণকে প্রশিক্ষণ দেওয়ার উদ্দেশ্যে গ্রন্থাগারে একটি অবৈতনিক প্রশিক্ষণ কেন্দ্র চালু আছে। প্রায় ৪০ জন ছাত্রছাত্রী নিয়ে এই কেন্দ্রের কাজ শুরু হয়। গত ১৭.০১.২০০১ তারিখ থেকে কর্মপ্রার্থী শিক্ষিত তরুণ তরুণী এই শাখায় যুক্ত থেকে ক্লাবের সুযোগ সহ প্রয়োজনীয় পাঠ্য বিষয়বস্তুর সাহায্য পেয়ে আসছেন। এ পর্যন্ত ২২ জন ছাত্রছাত্রী পি.এস.সি., এস.এস.সি. সহ অন্যান্য ক্ষেত্রে চাকুরী পেয়ে উপকৃত হয়েছেন। এই কেন্দ্রের দুই তিনজন ছাত্র ডব্লিউ.বি.সি.এস. পরীক্ষার প্রাথমিক পর্বে সফল হলেও মূল পর্বে সাফল্য না পাওয়ার কারণ হিসাবে সবচেয়ে সম্ভাবনাময় ছাত্রছাত্রীরা কোন না কোন চাকুরী পেয়ে চলে গেছেন এবং তারপর আর তাঁরা এই পরীক্ষা দেওয়ার চেষ্টা তেমন ভাবে করেননি। এই বিষয়ে আমরা আপনাদের মূল্যবান পরামর্শ প্রার্থী।</p>
+                    
+                    <p style="margin-bottom: 15px;">এই গ্রন্থাগার মহকুমা গ্রন্থাগার হিসাবে অনুমোদিত হলেও বর্তমানে এর পরিষেবা বহুল পরিমাণে বৃদ্ধি পেয়েছে। বর্তমানে প্রাপ্ত সরকারী অনুদান ও কর্মী সংখ্যার দ্বারা গ্রন্থাগার পরিচালনায় সমস্যার সৃষ্টি হয়েছে। সেইজন্য আমরা এই গ্রন্থাগারটিকে জেলা গ্রন্থাগার পর্যায়ে উন্নীত করার সর্ব্বোতভাবে কামনা করছি। বিভিন্ন সময়ে বিভিন্ন বিদগ্ধ ব্যক্তিত্ব এই গ্রন্থাগারের উন্নতি কামনা করে তাঁদের মূল্যবান মতামত গ্রন্থাগারের পরিদর্শনিকায় লিপিবদ্ধ করেছেন। সম্প্রতি গত ২৬.০৫.২০০১ তারিখে পশ্চিমবঙ্গ সরকারের গ্রন্থাগার অধিকর্তা মিহির সেনগুপ্ত মহোদয় ও ১৩.০৯.২০০১ তারিখে পশ্চিমবঙ্গ রাজ্য লেখ্যাগারের (মহাফেজখানা) সহ অধিকর্তা শ্রীমতী আরাধনা ঘোষ ও মুখ্য লেখ্যাগারিক (মহাফেজখানা সংরক্ষক) দিলীপ কুমার মুখোপাধ্যায়, ০১.১২.২০০১ তারিখে গ্রন্থাগার মন্ত্রী শ্রী নারায়ণ চন্দ্র মন্ডল মহাশয় এই গ্রন্থাগারের কাজকর্ম দেখে সন্তোষ প্রকাশ করেছেন।</p>
+                    
+                    <p style="margin-bottom: 25px;">বর্তমানে গ্রন্থাগারে গ্রন্থাগারিক, গ্রন্থাগার সহায়ক, দফতরী কাম বুক বাইন্ডার ও দারোয়ান কাম নাইটগার্ড আছেন। এই চারজন কর্মী সরকার স্বীকৃত। এছাড়া গ্রন্থাগারের নিজস্ব তহবিল থেকে দুইজন পাঠকক্ষ সহায়ক ও একজন সাফাই কর্মী আছেন। বর্তমানে গ্রন্থাগারের সমূহ বিভাগের সুষ্ঠু পরিষেবার জন্য আরো কর্মী প্রয়োজন। এই গ্রন্থাগারকে জেলা গ্রন্থাগার পর্যায়ে উন্নীত করে কাঁথিবাসির দীর্ঘদিনের আশা ও আকাঙ্ক্ষাকে পূরণ করার জন্য আপনাদের সকলের ঐকান্তিক সহযোগিতার মাধ্যমে এই সংস্থার উন্নতি সাধন করবেন এই আশা পোষণ করছি।</p>
+                </div>
+
+                <div style="text-align: right; font-family: 'Kalpurush', 'SolaimanLipi', Arial, sans-serif; font-size: 1.15rem; color: #333; margin-top: 30px; padding-top: 20px; border-top: 1px solid #e0d8c8;">
+                    <p style="margin-bottom: 5px;">তাং- ১৯.১২.২০০৬</p>
+                    <p style="margin-bottom: 5px;">ভবদীয়</p>
+                    <p style="margin-bottom: 5px; font-weight: bold;">শক্তিপদ পন্ডা</p>
+                    <p style="margin-bottom: 5px;">সম্পাদক</p>
+                    <p>কাঁথি ক্লাব মহকুমা গ্রন্থাগার</p>
+                </div>
+            </div>
+
+        </main>
+
     </div>
 
     <footer>
-        <p>Copyright © 2026 Contai Information Point</p>
+        <p>Copyright © 2026 Contai Information Point | Restored & Modernized</p>
     </footer>
+
 </body>
 </html>
